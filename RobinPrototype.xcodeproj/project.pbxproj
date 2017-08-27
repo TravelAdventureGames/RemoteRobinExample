@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6811E4331D2556660005FB04 /* Zin3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6811E42F1D2556660005FB04 /* Zin3.wav */; };
+		6811E4351D2556660005FB04 /* Zin5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6811E4311D2556660005FB04 /* Zin5.wav */; };
+		6811E4381D255AA50005FB04 /* OpmaakButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811E4371D255AA50005FB04 /* OpmaakButton.swift */; };
+		6811E43B1D255C7A0005FB04 /* magerebrug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6811E43A1D255C7A0005FB04 /* magerebrug.jpg */; };
+		6811E4401D25611F0005FB04 /* Zin7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6811E43E1D25611F0005FB04 /* Zin7.wav */; };
+		6811E4411D25611F0005FB04 /* Zin6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6811E43F1D25611F0005FB04 /* Zin6.wav */; };
+		683F72C31D268C5100BC6A88 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F72C21D268C5100BC6A88 /* VideoVC.swift */; };
+		683F72C71D26A29700BC6A88 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F72C61D26A29700BC6A88 /* MapVC.swift */; };
+		683FCA071D23F45A0041922C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FCA061D23F45A0041922C /* AppDelegate.swift */; };
+		683FCA0C1D23F45A0041922C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA0A1D23F45A0041922C /* Main.storyboard */; };
+		683FCA0E1D23F45A0041922C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA0D1D23F45A0041922C /* Assets.xcassets */; };
+		683FCA111D23F45A0041922C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA0F1D23F45A0041922C /* LaunchScreen.storyboard */; };
+		683FCA191D23F4930041922C /* ConductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FCA181D23F4930041922C /* ConductVC.swift */; };
+		683FCA1B1D23F72E0041922C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FCA1A1D23F72E0041922C /* Helpers.swift */; };
+		683FCA1D1D23FBCA0041922C /* open.wav in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA1C1D23FBCA0041922C /* open.wav */; };
+		683FCA1F1D23FBD20041922C /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA1E1D23FBD20041922C /* pop.wav */; };
+		683FCA211D2407BE0041922C /* amsterdamsegrachten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA201D2407BE0041922C /* amsterdamsegrachten.mp3 */; };
+		683FCA241D24097A0041922C /* playIt.png in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA221D24097A0041922C /* playIt.png */; };
+		683FCA251D24097A0041922C /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA231D24097A0041922C /* pause.png */; };
+		683FCA2E1D241A4E0041922C /* tamb2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA2C1D241A4E0041922C /* tamb2.wav */; };
+		683FCA2F1D241A4E0041922C /* tamb1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 683FCA2D1D241A4E0041922C /* tamb1.wav */; };
+		686981471D29295100E0FBF2 /* location1.png in Resources */ = {isa = PBXBuildFile; fileRef = 686981461D29295000E0FBF2 /* location1.png */; };
+		686981491D29297100E0FBF2 /* location2.png in Resources */ = {isa = PBXBuildFile; fileRef = 686981481D29297100E0FBF2 /* location2.png */; };
+		6869814B1D29298200E0FBF2 /* ting.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6869814A1D29298200E0FBF2 /* ting.wav */; };
+		68F164FD1D24F49500F2D729 /* tamb4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68F164FB1D24F49500F2D729 /* tamb4.wav */; };
+		68F164FE1D24F49500F2D729 /* tamb3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68F164FC1D24F49500F2D729 /* tamb3.wav */; };
+		68F36D951D271A370026E7F8 /* RotationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F36D941D271A370026E7F8 /* RotationExtension.swift */; };
+		68F492701D9D4C0C000C08B6 /* Zin1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68F4926E1D9D4C0C000C08B6 /* Zin1.wav */; };
+		68F492711D9D4C0C000C08B6 /* Zin4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68F4926F1D9D4C0C000C08B6 /* Zin4.wav */; };
+		68F56DA91D2824E700C84218 /* OpmaakLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F56DA81D2824E700C84218 /* OpmaakLabel.swift */; };
+		68F7B6471D2A8B7100E07819 /* SourceCodePro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B6461D2A8B7100E07819 /* SourceCodePro-Black.ttf */; };
+		68F7B6491D2A8CB900E07819 /* Inconsolata-g.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B6481D2A8CB900E07819 /* Inconsolata-g.ttf */; };
+		68F7B64B1D2A8E4C00E07819 /* ADAM.CG PRO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B64A1D2A8E4C00E07819 /* ADAM.CG PRO.otf */; };
+		68F7B64D1D2A8ED800E07819 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B64C1D2A8ED800E07819 /* Montserrat-Regular.ttf */; };
+		68F7B6531D2A8F2700E07819 /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B64E1D2A8F2700E07819 /* BebasNeue Bold.otf */; };
+		68F7B6541D2A8F2800E07819 /* BebasNeue Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B64F1D2A8F2700E07819 /* BebasNeue Book.otf */; };
+		68F7B6551D2A8F2800E07819 /* BebasNeue Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B6501D2A8F2700E07819 /* BebasNeue Light.otf */; };
+		68F7B6561D2A8F2800E07819 /* BebasNeue Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B6511D2A8F2700E07819 /* BebasNeue Regular.otf */; };
+		68F7B6571D2A8F2800E07819 /* BebasNeue Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B6521D2A8F2700E07819 /* BebasNeue Thin.otf */; };
+		68F7B65A1D2A907900E07819 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B6581D2A907900E07819 /* SourceSansPro-Black.otf */; };
+		68F7B65B1D2A907900E07819 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68F7B6591D2A907900E07819 /* SourceSansPro-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6811E42F1D2556660005FB04 /* Zin3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zin3.wav; sourceTree = "<group>"; };
+		6811E4311D2556660005FB04 /* Zin5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zin5.wav; sourceTree = "<group>"; };
+		6811E4371D255AA50005FB04 /* OpmaakButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpmaakButton.swift; sourceTree = "<group>"; };
+		6811E43A1D255C7A0005FB04 /* magerebrug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = magerebrug.jpg; sourceTree = "<group>"; };
+		6811E43E1D25611F0005FB04 /* Zin7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zin7.wav; sourceTree = "<group>"; };
+		6811E43F1D25611F0005FB04 /* Zin6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zin6.wav; sourceTree = "<group>"; };
+		683F72C21D268C5100BC6A88 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		683F72C61D26A29700BC6A88 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		683FCA031D23F45A0041922C /* RobinPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobinPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		683FCA061D23F45A0041922C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		683FCA0B1D23F45A0041922C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		683FCA0D1D23F45A0041922C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		683FCA101D23F45A0041922C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		683FCA121D23F45A0041922C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683FCA181D23F4930041922C /* ConductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConductVC.swift; sourceTree = "<group>"; };
+		683FCA1A1D23F72E0041922C /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		683FCA1C1D23FBCA0041922C /* open.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = open.wav; sourceTree = "<group>"; };
+		683FCA1E1D23FBD20041922C /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		683FCA201D2407BE0041922C /* amsterdamsegrachten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amsterdamsegrachten.mp3; sourceTree = "<group>"; };
+		683FCA221D24097A0041922C /* playIt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playIt.png; sourceTree = "<group>"; };
+		683FCA231D24097A0041922C /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		683FCA2C1D241A4E0041922C /* tamb2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tamb2.wav; sourceTree = "<group>"; };
+		683FCA2D1D241A4E0041922C /* tamb1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tamb1.wav; sourceTree = "<group>"; };
+		686981461D29295000E0FBF2 /* location1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location1.png; sourceTree = "<group>"; };
+		686981481D29297100E0FBF2 /* location2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location2.png; sourceTree = "<group>"; };
+		6869814A1D29298200E0FBF2 /* ting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ting.wav; sourceTree = "<group>"; };
+		68F164FB1D24F49500F2D729 /* tamb4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tamb4.wav; sourceTree = "<group>"; };
+		68F164FC1D24F49500F2D729 /* tamb3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tamb3.wav; sourceTree = "<group>"; };
+		68F36D941D271A370026E7F8 /* RotationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationExtension.swift; sourceTree = "<group>"; };
+		68F4926E1D9D4C0C000C08B6 /* Zin1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zin1.wav; sourceTree = "<group>"; };
+		68F4926F1D9D4C0C000C08B6 /* Zin4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zin4.wav; sourceTree = "<group>"; };
+		68F56DA81D2824E700C84218 /* OpmaakLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpmaakLabel.swift; sourceTree = "<group>"; };
+		68F7B6461D2A8B7100E07819 /* SourceCodePro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Black.ttf"; sourceTree = "<group>"; };
+		68F7B6481D2A8CB900E07819 /* Inconsolata-g.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inconsolata-g.ttf"; sourceTree = "<group>"; };
+		68F7B64A1D2A8E4C00E07819 /* ADAM.CG PRO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ADAM.CG PRO.otf"; sourceTree = "<group>"; };
+		68F7B64C1D2A8ED800E07819 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		68F7B64E1D2A8F2700E07819 /* BebasNeue Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Bold.otf"; sourceTree = "<group>"; };
+		68F7B64F1D2A8F2700E07819 /* BebasNeue Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Book.otf"; sourceTree = "<group>"; };
+		68F7B6501D2A8F2700E07819 /* BebasNeue Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Light.otf"; sourceTree = "<group>"; };
+		68F7B6511D2A8F2700E07819 /* BebasNeue Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Regular.otf"; sourceTree = "<group>"; };
+		68F7B6521D2A8F2700E07819 /* BebasNeue Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Thin.otf"; sourceTree = "<group>"; };
+		68F7B6581D2A907900E07819 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		68F7B6591D2A907900E07819 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		68F835C41D9E6B370034D4AB /* robinFilm.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = robinFilm.m4v; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683FCA001D23F45A0041922C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6811E4361D25566D0005FB04 /* Soundfs */ = {
+			isa = PBXGroup;
+			children = (
+				68F4926E1D9D4C0C000C08B6 /* Zin1.wav */,
+				68F4926F1D9D4C0C000C08B6 /* Zin4.wav */,
+				6869814A1D29298200E0FBF2 /* ting.wav */,
+				6811E43E1D25611F0005FB04 /* Zin7.wav */,
+				6811E43F1D25611F0005FB04 /* Zin6.wav */,
+				68F164FC1D24F49500F2D729 /* tamb3.wav */,
+				68F164FB1D24F49500F2D729 /* tamb4.wav */,
+				683FCA2C1D241A4E0041922C /* tamb2.wav */,
+				6811E42F1D2556660005FB04 /* Zin3.wav */,
+				6811E4311D2556660005FB04 /* Zin5.wav */,
+				683FCA2D1D241A4E0041922C /* tamb1.wav */,
+			);
+			name = Soundfs;
+			sourceTree = "<group>";
+		};
+		6811E4391D255AAC0005FB04 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				683FCA1A1D23F72E0041922C /* Helpers.swift */,
+				6811E4371D255AA50005FB04 /* OpmaakButton.swift */,
+				68F56DA81D2824E700C84218 /* OpmaakLabel.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		683FC9FA1D23F45A0041922C = {
+			isa = PBXGroup;
+			children = (
+				68F36D941D271A370026E7F8 /* RotationExtension.swift */,
+				683FCA051D23F45A0041922C /* RobinPrototype */,
+				683FCA041D23F45A0041922C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		683FCA041D23F45A0041922C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				683FCA031D23F45A0041922C /* RobinPrototype.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		683FCA051D23F45A0041922C /* RobinPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				683FCA061D23F45A0041922C /* AppDelegate.swift */,
+				683FCA0A1D23F45A0041922C /* Main.storyboard */,
+				683FCA181D23F4930041922C /* ConductVC.swift */,
+				683F72C21D268C5100BC6A88 /* VideoVC.swift */,
+				683F72C61D26A29700BC6A88 /* MapVC.swift */,
+				683FCA0D1D23F45A0041922C /* Assets.xcassets */,
+				683FCA0F1D23F45A0041922C /* LaunchScreen.storyboard */,
+				683FCA121D23F45A0041922C /* Info.plist */,
+				6811E4391D255AAC0005FB04 /* Helpers */,
+				683FCA1C1D23FBCA0041922C /* open.wav */,
+				683FCA1E1D23FBD20041922C /* pop.wav */,
+				683FCA201D2407BE0041922C /* amsterdamsegrachten.mp3 */,
+				68F7B6451D2A8B5500E07819 /* Fonts */,
+				68F36D931D2718ED0026E7F8 /* Foto's */,
+				68F36D921D2718CB0026E7F8 /* Films */,
+				6811E4361D25566D0005FB04 /* Soundfs */,
+			);
+			path = RobinPrototype;
+			sourceTree = "<group>";
+		};
+		68F36D921D2718CB0026E7F8 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				68F835C41D9E6B370034D4AB /* robinFilm.m4v */,
+			);
+			name = Films;
+			sourceTree = "<group>";
+		};
+		68F36D931D2718ED0026E7F8 /* Foto's */ = {
+			isa = PBXGroup;
+			children = (
+				686981461D29295000E0FBF2 /* location1.png */,
+				686981481D29297100E0FBF2 /* location2.png */,
+				683FCA231D24097A0041922C /* pause.png */,
+				683FCA221D24097A0041922C /* playIt.png */,
+				6811E43A1D255C7A0005FB04 /* magerebrug.jpg */,
+			);
+			name = "Foto's";
+			sourceTree = "<group>";
+		};
+		68F7B6451D2A8B5500E07819 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				68F7B6581D2A907900E07819 /* SourceSansPro-Black.otf */,
+				68F7B6591D2A907900E07819 /* SourceSansPro-Regular.otf */,
+				68F7B64E1D2A8F2700E07819 /* BebasNeue Bold.otf */,
+				68F7B64F1D2A8F2700E07819 /* BebasNeue Book.otf */,
+				68F7B6501D2A8F2700E07819 /* BebasNeue Light.otf */,
+				68F7B6511D2A8F2700E07819 /* BebasNeue Regular.otf */,
+				68F7B6521D2A8F2700E07819 /* BebasNeue Thin.otf */,
+				68F7B6461D2A8B7100E07819 /* SourceCodePro-Black.ttf */,
+				68F7B6481D2A8CB900E07819 /* Inconsolata-g.ttf */,
+				68F7B64A1D2A8E4C00E07819 /* ADAM.CG PRO.otf */,
+				68F7B64C1D2A8ED800E07819 /* Montserrat-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683FCA021D23F45A0041922C /* RobinPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683FCA151D23F45A0041922C /* Build configuration list for PBXNativeTarget "RobinPrototype" */;
+			buildPhases = (
+				683FC9FF1D23F45A0041922C /* Sources */,
+				683FCA001D23F45A0041922C /* Frameworks */,
+				683FCA011D23F45A0041922C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobinPrototype;
+			productName = RobinPrototype;
+			productReference = 683FCA031D23F45A0041922C /* RobinPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683FC9FB1D23F45A0041922C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Martijn van Gogh";
+				TargetAttributes = {
+					683FCA021D23F45A0041922C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6SJ668L4Y9;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 683FC9FE1D23F45A0041922C /* Build configuration list for PBXProject "RobinPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 683FC9FA1D23F45A0041922C;
+			productRefGroup = 683FCA041D23F45A0041922C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				683FCA021D23F45A0041922C /* RobinPrototype */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683FCA011D23F45A0041922C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F7B65B1D2A907900E07819 /* SourceSansPro-Regular.otf in Resources */,
+				68F7B6561D2A8F2800E07819 /* BebasNeue Regular.otf in Resources */,
+				683FCA111D23F45A0041922C /* LaunchScreen.storyboard in Resources */,
+				683FCA0E1D23F45A0041922C /* Assets.xcassets in Resources */,
+				6811E4411D25611F0005FB04 /* Zin6.wav in Resources */,
+				6811E4331D2556660005FB04 /* Zin3.wav in Resources */,
+				68F492701D9D4C0C000C08B6 /* Zin1.wav in Resources */,
+				683FCA251D24097A0041922C /* pause.png in Resources */,
+				68F7B6541D2A8F2800E07819 /* BebasNeue Book.otf in Resources */,
+				6811E4351D2556660005FB04 /* Zin5.wav in Resources */,
+				686981471D29295100E0FBF2 /* location1.png in Resources */,
+				68F164FE1D24F49500F2D729 /* tamb3.wav in Resources */,
+				68F7B6531D2A8F2700E07819 /* BebasNeue Bold.otf in Resources */,
+				68F7B6551D2A8F2800E07819 /* BebasNeue Light.otf in Resources */,
+				68F7B64B1D2A8E4C00E07819 /* ADAM.CG PRO.otf in Resources */,
+				6811E4401D25611F0005FB04 /* Zin7.wav in Resources */,
+				68F7B6491D2A8CB900E07819 /* Inconsolata-g.ttf in Resources */,
+				68F7B65A1D2A907900E07819 /* SourceSansPro-Black.otf in Resources */,
+				683FCA2F1D241A4E0041922C /* tamb1.wav in Resources */,
+				683FCA1F1D23FBD20041922C /* pop.wav in Resources */,
+				68F164FD1D24F49500F2D729 /* tamb4.wav in Resources */,
+				683FCA1D1D23FBCA0041922C /* open.wav in Resources */,
+				68F492711D9D4C0C000C08B6 /* Zin4.wav in Resources */,
+				68F7B6471D2A8B7100E07819 /* SourceCodePro-Black.ttf in Resources */,
+				6811E43B1D255C7A0005FB04 /* magerebrug.jpg in Resources */,
+				68F7B6571D2A8F2800E07819 /* BebasNeue Thin.otf in Resources */,
+				686981491D29297100E0FBF2 /* location2.png in Resources */,
+				6869814B1D29298200E0FBF2 /* ting.wav in Resources */,
+				68F7B64D1D2A8ED800E07819 /* Montserrat-Regular.ttf in Resources */,
+				683FCA0C1D23F45A0041922C /* Main.storyboard in Resources */,
+				683FCA241D24097A0041922C /* playIt.png in Resources */,
+				683FCA211D2407BE0041922C /* amsterdamsegrachten.mp3 in Resources */,
+				683FCA2E1D241A4E0041922C /* tamb2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683FC9FF1D23F45A0041922C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F36D951D271A370026E7F8 /* RotationExtension.swift in Sources */,
+				683F72C31D268C5100BC6A88 /* VideoVC.swift in Sources */,
+				683F72C71D26A29700BC6A88 /* MapVC.swift in Sources */,
+				683FCA071D23F45A0041922C /* AppDelegate.swift in Sources */,
+				683FCA1B1D23F72E0041922C /* Helpers.swift in Sources */,
+				68F56DA91D2824E700C84218 /* OpmaakLabel.swift in Sources */,
+				6811E4381D255AA50005FB04 /* OpmaakButton.swift in Sources */,
+				683FCA191D23F4930041922C /* ConductVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		683FCA0A1D23F45A0041922C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683FCA0B1D23F45A0041922C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		683FCA0F1D23F45A0041922C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683FCA101D23F45A0041922C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		683FCA131D23F45A0041922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		683FCA141D23F45A0041922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		683FCA161D23F45A0041922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RobinPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.RobinPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		683FCA171D23F45A0041922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RobinPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.traveladventuregames.RobinPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683FC9FE1D23F45A0041922C /* Build configuration list for PBXProject "RobinPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683FCA131D23F45A0041922C /* Debug */,
+				683FCA141D23F45A0041922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683FCA151D23F45A0041922C /* Build configuration list for PBXNativeTarget "RobinPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683FCA161D23F45A0041922C /* Debug */,
+				683FCA171D23F45A0041922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683FC9FB1D23F45A0041922C /* Project object */;
+}
